@@ -36,7 +36,6 @@ columns_info = {
     "Age": {"desc": "Age of the house in years", "range": (0, 129), "dtype": "int64"},
     "TotalBaths": {"desc": "Total number of bathrooms", "range": (1, 7), "dtype": "float64"},
     "Fireplaces": {"desc": "Number of chimneys", "range": (0, 4), "dtype": "int64"},
-    "YearBuilt": {"desc": "Year of construction", "range": (1879, 2010), "dtype": "int64"},
     "GrLivArea": {"desc": "Living area in square feet", "range": (407, 5095), "dtype": "int64"},
     "GarageArea": {"desc": "Garage area in square feet", "range": (0, 1488), "dtype": "float64"},
 }
