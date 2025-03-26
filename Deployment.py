@@ -1,14 +1,3 @@
-import subprocess
-import sys
-
-def install_xgboost():
-    try:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "xgboost"])
-    except subprocess.CalledProcessError as e:
-        print(f"Error al intentar instalar XGBoost: {e}")
-        
-install_xgboost()
-
 
 import streamlit as st
 import pandas as pd
